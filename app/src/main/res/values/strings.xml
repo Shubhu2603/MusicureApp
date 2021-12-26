@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Musicure</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!--string name="default_web_client_id">299635159389-vmkf0aicu1sv4kd60pftihob47su5pgo.apps.googleusercontent.com</string>-->
+    <!--<string name="default_web_client_id" translatable="false">299635159389-vmkf0aicu1sv4kd60pftihob47su5pgo.apps.googleusercontent.com</string>-->
+</resources>

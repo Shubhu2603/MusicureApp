@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPass"
+    android:background="@drawable/iphone_x_xs__1_2">
+
+    <ImageButton
+        android:id="@+id/BACK3"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/imageView12"
+        android:layout_alignEnd="@+id/editTextTextPersonName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="190dp"
+        android:background="#00FFFFFF"
+        android:foreground="?android:selectableItemBackground"
+        app:srcCompat="@drawable/_34226_back_arrow_left_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextTextPersonName"
+        android:layout_alignTop="@+id/editTextTextPersonName"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-32dp"
+        app:srcCompat="@drawable/g10" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/text_box_underline_selector"
+        android:textCursorDrawable="@null"
+        android:ems="10"
+        android:fontFamily="@font/calibri"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextTextPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/calibri"
+        android:text="Mail"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/forgotpass"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_alignStart="@+id/editTextTextPersonName"
+        android:layout_alignEnd="@+id/editTextTextPersonName"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ripple_effect_raised"
+        android:fontFamily="@font/calibri"
+        android:text="Forgot Password"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+</RelativeLayout>

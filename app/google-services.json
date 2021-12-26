@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "299635159389",
+    "firebase_url": "https://musicure-76814-default-rtdb.firebaseio.com",
+    "project_id": "musicure-76814",
+    "storage_bucket": "musicure-76814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299635159389:android:5ceb54f7e2052775bcb8b4",
+        "android_client_info": {
+          "package_name": "com.example.musicure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299635159389-1okc1i74f9r0mutfpobvobek6dqia1vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musicure",
+            "certificate_hash": "5bbf878e637c6fa1072a4d39bc0ea1e2bd6de99a"
+          }
+        },
+        {
+          "client_id": "299635159389-vmkf0aicu1sv4kd60pftihob47su5pgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3jQeo77faG2b7Ul9iJplKTYr5DSlubXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299635159389-vmkf0aicu1sv4kd60pftihob47su5pgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

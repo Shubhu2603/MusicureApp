@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iphone_x_xs__1_2"
+    tools:context=".Questionnaire">
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/ripple_white"
+        android:fontFamily="@font/calibri"
+        android:text="Option 1"
+        android:textAllCaps="false"
+        android:textColor="#9A2131"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/option3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/ripple_white"
+        android:fontFamily="@font/calibri"
+        android:text="Option 4"
+        android:textAllCaps="false"
+        android:textColor="#9A2131"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/option1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/ripple_white"
+        android:fontFamily="@font/calibri"
+        android:text="Option 2"
+        android:textAllCaps="false"
+        android:textColor="#9A2131"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/option2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/ripple_white"
+        android:fontFamily="@font/calibri"
+        android:text="Option 3"
+        android:textAllCaps="false"
+        android:textColor="#9A2131"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:fontFamily="@font/calibrillight"
+        android:gravity="center"
+        android:text="A musical way to healthy life"
+        android:textColor="#9A2131"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="412dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/option4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/robotoblack"
+        android:gravity="center"
+        android:text="Curating the best music for you ..."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="32dp" />
+
+</RelativeLayout>

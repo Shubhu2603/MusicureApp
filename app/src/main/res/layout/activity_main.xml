@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iphone_x_xs__1_2"
+    tools:context=".MainActivity"
+
+    >
+
+    <ImageButton
+        android:id="@+id/BACK2"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/imageView5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="269dp"
+        android:layout_toStartOf="@+id/imageView"
+        android:background="#00FFFFFF"
+        android:foreground="?android:selectableItemBackground"
+        app:srcCompat="@drawable/_34226_back_arrow_left_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="78dp"
+        android:fontFamily="@font/calibri"
+        android:gravity="center"
+        android:text="MusiCure"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="61dp"
+        android:fontFamily="@font/calibrili_lightitalic"
+        android:gravity="center"
+        android:text="A musical way to healthy life"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar2"
+        android:layout_alignStart="@+id/progressBar2"
+        android:layout_marginStart="-91dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/calibri"
+        android:text="Mail"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/User"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/text_box_underline_selector"
+        android:ems="10"
+        android:fontFamily="@font/calibri"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@null"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/User"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/calibri"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/User"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/text_box_underline_selector"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@null"
+        android:ems="10"
+        android:fontFamily="@font/calibri"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_below="@+id/Pass"
+        android:layout_alignStart="@+id/Pass"
+        android:layout_alignEnd="@+id/Pass"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:autoText="true"
+        android:fontFamily="@font/calibri"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="end"
+        android:minHeight="48dp"
+        android:text="Forgot password?"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pass"
+        android:layout_alignEnd="@+id/Pass"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/ripple_effect_raised"
+        android:fontFamily="@font/calibri"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="79dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        app:srcCompat="@drawable/meditationhd" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-2dp"
+        app:srcCompat="@drawable/line_1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/User"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="-7dp"
+        app:srcCompat="@drawable/g10" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Pass"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="-3dp"
+        app:srcCompat="@drawable/_537322_access_key_password_unlock_icon" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pass"
+        android:layout_alignStart="@+id/Pass"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/ripple_effect_raised"
+        android:fontFamily="@font/calibri"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <ImageButton
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        app:srcCompat="@drawable/_613276_company_google_hardware_and_software_internet_search_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>
